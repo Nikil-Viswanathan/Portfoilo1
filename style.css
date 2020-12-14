@@ -1,0 +1,76 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: rgba(0, 26, 255, 0.89);
+    display: flex;
+    justify-content: space-between;
+}
+.headerabout{
+    background-color: lime;
+    display: flex;
+    justify-content: center;
+}
+.aboutme1{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-width: 5;
+    border-color: cyan;
+}
+.hobbies{
+    background-color: red;
+    display:flex;
+    justify-content: left;
+    border: solid;
+    border-width: 5;
+    border-color: blue;
+    
+}
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+.between{
+    display: wrap;
+    background-color: violet;
+    border : solid;
+    border-color: violet;
+    border-width: thick;
+
+}
+.grid{
+     
+    display: flex;
+    background-color: red;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    background-color:skyblue;
+    display: flex;
+    justify-content: flex-end;
+}
+.item{
+display : wrap;
+background-color: lime;
+border : solid;
+border-color: rgba(0, 26, 255, 0.89);
+border-width:thick;
+color :rgba(0, 26, 255, 0.89);
+font-size: large;
+
+     
+}
+p,h2{
+    text-align: center;
+}
